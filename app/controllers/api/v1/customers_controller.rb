@@ -98,8 +98,8 @@ class Api::V1::CustomersController < ApplicationController
       params.require(:customer)
       .permit(
         :fantasyName,
-        :customerName,
-        :taxId,
+        :custumerName,
+        :taxid,
         :status,
         :stateRegistration,
         :facility_id,
